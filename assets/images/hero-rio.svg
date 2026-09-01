@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Rio de Janeiro ao entardecer</title><desc id="desc">Ilustração panorâmica com montanhas, mar e calçadão.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#97b8b1"/><stop offset=".5" stop-color="#d7b98d"/><stop offset="1" stop-color="#824e4c"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#426e6b"/><stop offset="1" stop-color="#092c2a"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".75" numOctaves="3"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 .12 0"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1240" cy="265" r="105" fill="#f1d394" opacity=".74"/>
+  <path d="M0 525 140 455l94 46 131-141 84 110 105-53 140 110 102-124 87 77 100-230 65 178 102-72 126 174 144-65v280H0Z" fill="#153d37" opacity=".87"/>
+  <path d="M880 526c49-77 84-164 102-276 24 37 44 93 64 168l-38 35-34 2-23 88Z" fill="#0d2d29"/>
+  <path d="M0 560c284-57 440 59 664 3 246-62 491-43 936 18v419H0Z" fill="url(#sea)"/>
+  <path d="M0 716c266-26 461-8 627 72 146 70 335 105 544 70 152-25 295-10 429 15v127H0Z" fill="#dbc8a3"/>
+  <path d="M0 803c237-54 458-34 675 55 219 90 531 112 925 51v91H0Z" fill="#e8dcc2"/>
+  <path d="M44 823c258-44 458-17 627 62 210 97 516 108 890 49" fill="none" stroke="#26352f" stroke-width="25" opacity=".7"/>
+  <path d="M35 825c74-31 140-24 200 5s124 31 191 0 139-30 217 8 154 43 230 13 148-29 219 9 142 44 213 5 145-40 235-2" fill="none" stroke="#f4efe4" stroke-width="13" stroke-dasharray="34 20" opacity=".92"/>
+  <g fill="#f3d7a2" opacity=".76"><circle cx="1180" cy="584" r="4"/><circle cx="1220" cy="602" r="3"/><circle cx="1310" cy="566" r="5"/><circle cx="1400" cy="615" r="3"/></g>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".18"/>
+</svg>
