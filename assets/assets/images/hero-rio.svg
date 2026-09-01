@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Rio de Janeiro, Cristo Redentor, Maracanã e praia</title>
+  <desc id="desc">Composição panorâmica e harmoniosa dos principais momentos da viagem ao Rio.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2=".8">
+      <stop stop-color="#244842"/>
+      <stop offset=".48" stop-color="#78958c"/>
+      <stop offset="1" stop-color="#e3c38f"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#407872"/>
+      <stop offset="1" stop-color="#0b3531"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#e8d7b5"/>
+      <stop offset="1" stop-color="#cbb183"/>
+    </linearGradient>
+    <linearGradient id="stadium" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f8f3e8"/>
+      <stop offset="1" stop-color="#c9c0ad"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".76" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 .09 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1332" cy="195" r="105" fill="#f2d59b" opacity=".7"/>
+  <circle cx="1332" cy="195" r="145" fill="none" stroke="#f2d59b" stroke-width="2" opacity=".18"/>
+
+  <path d="M0 455 126 391l91 43 124-126 85 93 106-51 119 91 93-103 103 87 105-121 92 78 94-169 83 133 116-78 93 123 120-44 100 81v219H0Z" fill="#1a4a40" opacity=".76"/>
+  <path d="M0 506 150 438l120 63 117-98 119 86 111-58 148 104 117-67 94 72 128-76 141 84 114-57 161 71v181H0Z" fill="#123c35" opacity=".86"/>
+
+  <g>
+    <path d="M845 516c52-157 111-256 177-299 67 40 126 141 178 303Z" fill="#0b302a"/>
+    <path d="M997 302h50l-7 38-9 17 9 109h-36l9-109-9-17Z" fill="#eee7d7"/>
+    <circle cx="1022" cy="281" r="16" fill="#eee7d7"/>
+    <path d="m1017 319-105-42-7 16 103 51m19-25 105-42 7 16-103 51" fill="#eee7d7"/>
+    <path d="M996 466h52l20 39h-92Z" fill="#c9bfaa"/>
+  </g>
+
+  <path d="M0 550c234-44 414-17 589 37 189 59 375 69 558 31 156-33 307-25 453 18v364H0Z" fill="url(#sea)"/>
+  <path d="M0 658c266-39 472-8 622 92 168 111 378 145 630 100 120-21 236-18 348 9v141H0Z" fill="url(#sand)"/>
+  <path d="M0 720c193-31 366-15 519 49 158 67 299 108 449 113" fill="none" stroke="#f8f2e5" stroke-width="10" opacity=".72"/>
+  <path d="M0 695c178-28 350-7 516 64" fill="none" stroke="#70a6a0" stroke-width="7" stroke-dasharray="42 24" opacity=".68"/>
+
+  <g transform="translate(1150 555)">
+    <ellipse cx="188" cy="144" rx="211" ry="95" fill="#102d29" opacity=".35"/>
+    <path d="M0 84c41-76 335-76 376 0l-29 139H29Z" fill="url(#stadium)" stroke="#741c32" stroke-width="9"/>
+    <path d="M35 113h306l-13 76H48Z" fill="#123d35"/>
+    <ellipse cx="188" cy="137" rx="116" ry="34" fill="#4d8c61"/>
+    <ellipse cx="188" cy="127" rx="167" ry="62" fill="none" stroke="#f8f3e8" stroke-width="14"/>
+    <path d="M21 82c67-52 267-52 334 0" fill="none" stroke="#741c32" stroke-width="21"/>
+    <path d="M52 70c75-27 197-27 272 0" fill="none" stroke="#f6f1e7" stroke-width="8"/>
+    <g fill="#c8a45c"><circle cx="45" cy="54" r="5"/><circle cx="331" cy="54" r="5"/></g>
+  </g>
+
+  <path d="M0 816c178-44 336-28 473 48 133 73 296 111 489 112 185 1 392-34 638-105v129H0Z" fill="#e9ddc2"/>
+  <path d="M0 873c211-45 397-17 558 83 211 71 449 71 715-1 100-27 209-47 327-58" fill="none" stroke="#243832" stroke-width="27" opacity=".72"/>
+  <path d="M0 873c68-31 130-25 185 7s113 35 173 2 125-32 194 8 139 43 209 5 139-38 207 4 138 45 209 3 146-43 223 0 136 38 200 4" fill="none" stroke="#f8f3e9" stroke-width="12" stroke-dasharray="36 21" opacity=".95"/>
+
+  <g fill="#f1d49b" opacity=".82"><circle cx="1215" cy="611" r="4"/><circle cx="1253" cy="628" r="3"/><circle cx="1306" cy="598" r="4"/><circle cx="1390" cy="625" r="3"/></g>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".16"/>
+</svg>
